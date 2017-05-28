@@ -1,0 +1,19 @@
+{
+  "name": "muber_backend",
+  "version": "1.0.0",
+  "description": "learning backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec 'mocha --recursive -R min'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mocha": "^3.4.2",
+    "mongoose": "^4.10.3",
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0"
+  }
+}
