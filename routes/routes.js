@@ -7,4 +7,6 @@ module.exports = (app) => {
     // we do not put () after the create because we do not want it to be run at the app booting up
     app.post('/api/drivers',DriverController.create);
     app.put('/api/drivers/:id', DriverController.edit);
+    app.delete('/api/drivers/:id', DriverController.delete);
+    app.get('/api/drivers', DriverController.index);
 }
